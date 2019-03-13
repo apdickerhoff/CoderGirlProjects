@@ -12,7 +12,7 @@ public class MultiplicationTable {
 
         for (int i = 0; i <= n; i++) {
             {
-                for (int j = 0; j <= i; j++) {
+                for (int j = 0; j <= n; j++) {
                     product = i * j;
                     System.out.println(i + " x " + j + " = " + product);
                 }
